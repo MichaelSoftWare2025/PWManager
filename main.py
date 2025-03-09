@@ -86,7 +86,7 @@ class PasswordManager(tk.Tk):
         
     def support(self):
         import webbrowser
-        webbrowser.open("https://donationalerts.com/r/Yourname") # Replace 'Yourname' with your donation alerts name
+        webbrowser.open("https://donationalerts.com/r/MichaelProgrammer")
 
     def save_password(self, site, password):
         if not site or not password:
