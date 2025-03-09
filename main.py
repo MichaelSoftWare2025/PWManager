@@ -86,7 +86,7 @@ class PasswordManager(tk.Tk):
         
     def support(self):
         import webbrowser
-        webbrowser.open("https://donationalerts.com/r/MichaelProgrammer")
+        webbrowser.open("https://donationalerts.com/r/MichaelProgrammer") # Don't change this please
 
     def save_password(self, site, password):
         if not site or not password:
